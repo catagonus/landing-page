@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Black.ttf");
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Light.ttf");
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-LightItalic.ttf");
+    font-weight: lighter;
+    font-style: italic;
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto";
+}
+
+.header-box {
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-box .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info-box {
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+}
+
+.signup-box {
+}
+
+.footer {
+    color: #f9faf8;
+    font-size: .8em;
+}
+
+.header-box,
+.footer {
+    background-color: #1f2937;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+}
+
+.info-img {
+    border: 2px solid #3882f6;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.info-box .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 8px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.call-to-action button {
+    border: 1px solid white;
+}
+
+.attribution {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.placeholder {
+    background-color: #676869;
+    color: #e5e7eb;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.call-to-action .header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
