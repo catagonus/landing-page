@@ -32,9 +32,26 @@
 body {
     background-color: white;
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.section {
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .header-box {
+    flex: 1;
+}
+
+.header {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -43,15 +60,16 @@ body {
     font-weight: bold;
 }
 
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
 .header-box .main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-}
-
-.header {
-    color: #e5e7eb;
-    font-size: 18px;
 }
 
 .subtext {
@@ -59,7 +77,15 @@ body {
     color: #e5e7eb;
 }
 
+.hero-content {
+    display: flex;
+}
+
 .info-box {
+}
+
+.info-grid {
+    display: flex;
 }
 
 .quote-box {
@@ -67,11 +93,18 @@ body {
 }
 
 .signup-box {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .footer {
     color: #f9faf8;
     font-size: .8em;
+    flex: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-box,
@@ -83,6 +116,10 @@ body {
     background-color: #3882f6;
     border-radius: 8px;
     color: white;
+    display: flex;
+    padding: 48px 100px;
+    justify-content: space-between;
+    width: 60%;
 }
 
 .info-img {
@@ -124,6 +161,9 @@ a {
 .placeholder {
     background-color: #676869;
     color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
