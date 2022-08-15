@@ -135,6 +135,7 @@ a {
 .info-grid {
     display: flex;
     width: 1000px;
+    flex-shrink: 1;
     justify-content: space-between;
     margin-bottom: 32px;
 }
@@ -154,4 +155,30 @@ a {
 
 .info-text {
     text-align: center;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.attrib {
+    font-weight: bold;
+    align-self: flex-end;
 }
