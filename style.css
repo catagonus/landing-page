@@ -194,7 +194,7 @@ button {
 }
 
 .call-to-action button {
-    border: 2px solid #f9faf8;
+    border: 1px solid #f9faf8;
     flex-shrink: 0;
 }
 
@@ -208,6 +208,22 @@ button {
 }
 
 @media(max-width:768px) {
+
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        padding: 0;
+        margin: 0;
+    }
+
     .header .container {
         flex-direction: column;
         align-items: center;
@@ -226,6 +242,10 @@ button {
     .information img {
         height: 300px;
         width: 300px;
+    }
+
+    .quote .container {
+        padding: 64px 32px;
     }
 
     .call-to-action .box {
