@@ -182,3 +182,35 @@ a {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: white;
+    width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    border-radius: 5px;
+    margin: 50px 0;
+}
+
+.cta-words {}
+
+.cta-heading {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.cta-text {}
+
+.cta button {
+    border: 1px solid white;
+}
